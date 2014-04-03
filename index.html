@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <h2><img src="logo.png" alt="logo"></h2>
+        <h2><img id="logo" src="logo.png" alt="logo"></h2>
         <div class="navbar navbar-inverse" role="navigation">
             <div class="container">
                 <div class="navbar-header">
@@ -27,7 +27,14 @@
                           <li><a href="#">Manage Ads</a></li>
                           <li><a href="#">Analyzer</a></li>
                           <li><a href="#">Audience</a></li>
-                          <li><a href="#">Your AdMAC.com<span class="glyphicon glyphicon-cog custom-cog"></span></a></li>
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Your AdMAC.com<span class="glyphicon glyphicon-cog custom-cog"></span><span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                            </ul>
+                        </li>
                     </ul>
  -->             </div><!--/.navbar-collapse -->
             </div>
@@ -46,13 +53,13 @@
                 </div> -->
             <div class="row">
             
-                <div class = "col-lg-3" style="background-color: #0066CC;">
-                <p>Electronics</p></div>
+                <div class = "col-lg-4" style="background-color: #0066CC;">
+                <p>Electronics-30%</p></div>
                 <div class = "col-lg-2" style="background-color: #0099FF;">
-                <p>Apparels</p></div>
-                <div class = "col-lg-1" style="background-color: #0099CC;">
-                <p>Accessories</p></div>
-                <div class = "col-lg-5" style="background-color: #66CCFF;">
+                <p>Apparels-20%</p></div>
+                <div class = "col-lg-2" style="background-color: #0099CC;">
+                <p>Accessories-10%</p></div>
+                <div class = "col-lg-3" style="background-color: #66CCFF;">
                 <p>Remaining budget $4.25k</p></div>
                 <div id="desc2">Total budget $15k</div>
             </div>   
@@ -60,9 +67,11 @@
             <div>
                 <div class="col-lg-4">
                     <h3>Performance of Ads for this week</h3>
-                    <p>Number of clicks</p>
-                    <p>Spent on Ads</p>
-                    <p>Number of Clicks per Ad</p>
+                    <div class="datarep">
+                     Number of clicks<br/><div class="data-color">156,000<br/></div>
+                        Spent on Ads<br/><div class="data-color">$200<br/></div>
+                        Number of Clicks per dollar spent on Ads<br/><div class="data-color">$60</div>
+                    </div>
                     <p><img src="untitled.png" alt="graph"></p>
                 </div>
                 <div class="col-lg-8">
