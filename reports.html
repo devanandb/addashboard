@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+        <title>Reports</title>
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/reports-styles.css" rel="stylesheet">
+        
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/canvasjs.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </head>
+        <body>
+            <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html"><img id="logo" src="img/logo.png" alt="logo"></a>
+                </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                        <li><a href="create-ad.html">Create Ads</a></li>
+                        <li><a href="manage-ad.html">Manage Ads</a></li>
+                        <li><a href="target-audience.html">Target Audience</a></li>
+                        <li><a href="reports.html">Reports</a></li>
+                    </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Your AdMAC<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                <li><a href="#">Profile</a></li>
+                                <li><a href="#">Settings</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Begin page content -->
+            <div class="container">
+                <div class="navbar-collapse collapse">
+                    <ul class="nav nav-pills navbar-left">
+                        <li><button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Categories
+                        <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                            <li><a href="#">Clothing</a></li>
+                            <li><a href="#">Electronics</a></li>
+                            <li><a href="#">Footwear</a></li>
+                        </ul></li>
+                        <li><button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Select Ad/Campaign
+                        <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                            <li><a href="#">Freecultr Men's Wear</a></li>
+                            <li><a href="#">Freecultr Men's Wear</a></li>
+                            <li><a href="#">Freecultr Men's Wear</a></li>
+                        </ul></li>
+                        <li><button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Ad Status
+                        <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                            <li><a href="#">Active</a></li>
+                            <li><a href="#">Paused</a></li>
+                            <li><a href="#">Archived</a></li>
+                        </ul></li>
+                </ul>
+            </div>
+                <div class="container-reports">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="data-representation">
+                            <h3>Overview</h3>
+                            <p><img src="img/adposter.png"></p>
+                            Number of clicks<br/><div class="data-color">156,000</div>
+                            Spent on Ads<br/><div class="data-color">$200</div>
+                            Impressions<br/><div class="data-color">23870</div>
+                            Number of Clicks per dollar spent on Ads<br/><div class="data-color">$60</div>
+                        </div>
+
+                        <div id="chartContainer" style="height:400px;width:600px; ">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+                <div id="footer">
+                    <div class="container">
+                    <p class="text-muted"></p>
+                </div>
+            </div>
+            
+        </body>
+    </html>
