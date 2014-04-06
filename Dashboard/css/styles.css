@@ -5,6 +5,12 @@ html {
 body {
   margin-bottom: 60px;
 }
+#logo{
+  padding-top: 5px;
+  margin-right: 25px;
+  height: 50px;
+  width: 120px;
+}
 #footer {
   position: absolute;
   bottom: 0;
@@ -15,6 +21,16 @@ body {
 body > .container {
   padding: 60px 15px 0;
 }
+#desc2{
+  margin-top: 10px;
+  font-size: 80%;
+}
+.row{padding-top:25px;}
+.data-color{
+  font-weight: bold;
+  font-size: 25px;
+  color:#303030;
+  }
 .container .text-muted {
   margin: 20px 0;
 }

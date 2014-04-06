@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
-        <title>AdMac</title>
+        <title>Home</title>
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom styles for this template -->
@@ -24,20 +24,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Project name</a>
+                    <a href="index.html"><img id="logo" src="img/logo.png" alt="logo"></a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a id="dashboard">Today</a></li>
-                        <li><a id="createAd">Create Ads</a></li>
-                        <li><a id="manageAd">Manage Ads</a></li>
-                        <li><a id="manageAd">Analytics</a></li>
-
-                        
+                        <li><a href="create-ad.html">Create Ads</a></li>
+                        <li><a href="manage-ad.html">Manage Ads</a></li>
+                        <li><a href="target-audience.html">Target Audience</a></li>
+                        <li><a href="reports.html">Reports</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Varsha Patil <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-Home cutom-home"></span>Your AdMAC <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Profile</a></li>
                                 <li><a href="#">Settings</a></li>
@@ -51,20 +49,107 @@
         </div>
         <!-- Begin page content -->
         <div id="maincontent" class="container">
-            <div class="page-header">
-                <h1>Sticky footer with fixed navbar</h1>
+            <div class="row">
+                <div class = "col-lg-4" style="background-color: #0066CC;padding-top:5px">
+                <p>Electronics-30%</p></div>
+                <div class = "col-lg-2" style="background-color: #0099FF;padding-top:5px">
+                <p>Apparels-20%</p></div>
+                <div class = "col-lg-2" style="background-color: #0099CC;padding-top:5px">
+                <p>Accessories-10%</p></div>
+                <div class = "col-lg-3" style="background-color: #66CCFF;padding-top:5px">
+                <p>Remaining budget $4.25k</p></div>
+                <div id="desc2">Total budget $15k</div>
+            </div>   
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3>Performance of Ads for this week</h3>
+                    <div class="datarep">
+                     Number of clicks<br/><div class="data-color">156,000<br/></div>
+                        Spent on Ads<br/><div class="data-color">$200<br/></div>
+                        Number of Clicks per dollar spent on Ads<br/><div class="data-color">$60</div>
+                    </div>
+                    <p><img src="img/Weekly_spent_analysis.png" alt="graph" style="padding-top:25px;"></p>
+                </div>
+                <div class="col-lg-8" style="padding-left:50px;">
+                    <h3>Top Ads of this Week</h3>
+                    <div class="col-lg-8">
+                        <h4>By Number of clicks</h4>
+                         <div class="col-lg-7">    
+                         <p><span class="glyphicon glyphicon-star-empty custom-bullet"></span>Freecultr Sale:Flat 20% off</p>
+                         </div>
+                         <div class="col-lg-5 col-lg-push-3">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-    valuemax="  100" style="width: 80%">
+                                <span class="sr-only">40% Complete (success)</span>156000
+                                </div>
+                            </div>
+                        </div>
+                         <div class="col-lg-7">
+                         <p><span class="glyphicon glyphicon-star-empty custom-bullet"></span>Limeroad New Summer Collections</p>
+                         </div>
+                          <div class="col-lg-5 col-lg-push-3">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                <span class="sr-only">20% Complete</span>120000
+                                </div>
+                            </div>
+                          </div>
+                         <div class="col-lg-7">
+                         <p><span class="glyphicon glyphicon-star-empty custom-bullet"></span>Eztello's accessories</p>
+                         </div>
+                         <div class="col-lg-5 col-lg-push-3">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                <span class="sr-only">60% Complete (warning)</span>50000
+                                </div>
+                            </div>
+                          </div> <!-- /*col-lg-5*/ -->
+                        </div>  
+                    <div class="col-lg-8" style="padding-top:25px;">
+                    <h4>By clicks per dollar</h4>
+                                <div class="col-lg-7">
+                         <p><span class="glyphicon glyphicon-star-empty custom-bullet"></span>Eztello's accessories</p>
+                         </div>
+                         <div class="col-lg-5 col-lg-push-3">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="  100" style="width: 60%">
+                                <span class="sr-only">20% Complete</span>1500
+                                </div>
+                            </div>
+                        </div>
+                         <div class="col-lg-7">
+                         <p><span class="glyphicon glyphicon-star-empty custom-bullet"></span>Eztello's accessories </p>
+                         </div>
+                          <div class="col-lg-5 col-lg-push-3">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                <span class="sr-only">40% Complete (success)</span>1000
+                                </div>
+                            </div>
+                          </div>
+                         <div class="col-lg-7">
+                         <p><span class="glyphicon glyphicon-star-empty custom-bullet"></span>Eztello's accessories</p>
+                         </div>
+                         <div class="col-lg-5 col-lg-push-3">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                                <span class="sr-only">60% Complete (warning)</span>800
+                                </div>
+                            </div>
+                          </div> <!-- /*col-lg-5*/ -->
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body > .container</code>.</p>
-            <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+        </div>
         </div>
         <div id="footer">
             <div class="container">
-                <p class="text-muted">Place sticky footer content here.</p>
+                <p class="text-muted"></p>
             </div>
         </div>
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-
         <script src="js/main.js"></script>
 
     </body>
